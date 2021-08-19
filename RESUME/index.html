@@ -7,118 +7,201 @@
  <link rel="shortcut icon" href="/img/me.jpg" type="image/x-icon">
  <link rel="apple-touch-icon" href="/img/me.jpg">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="css/style.css">
  <title>Chitech's Resume</title>
 </head>
 <body>
- <div class="container-fluid navbar" id="navbar">
-  <a href="#">Franklin</a>
-  <ul>
-   <a class="smooth-scroll" href="#skills">Skills</a>
-   <a class="smooth-scroll" href="#experience">Experience</a>
-   <a class="smooth-scroll" href="#contact">Contact</a>
-  </ul>
- </div>
 
- <div id="content">
+ 
+ <div class="resume">
   <div class="container">
    <div class="row">
-    <div class="col-md-6"  id="contact">
-    <div class="left-article">
-     <span>Hi</span>
-     <h2>I'm <b style="color: blue">Alegu Franklin Ominyi</b></h1>
-     <span>//Frontend Developer\\</span>
-     <div>
-      <a href="https://github.com/Franklin-Ominyi"><i class="fa fa-github"></i></a>
-      <a href="mailto:franklinchibuikeominyi@gmail.com"><i class="fa fa-envelope"></i></a>
-      <a href="#"><i class="fa fa-whatsapp"></i>08104496353</a>
-     </div>
- 
-    </div>
-    </div>
- 
-    <div class="col-md-6 right-article">
-     <img src="/img/me.jpg" alt="me">
-    </div>
-   </div>
-   <div class="row row2">
-    <div class="col-md-6">
-     <div class="bio">
-      <h3 style="color: blue; text-align: center; border-bottom: 2px solid black;">Bio</h3>
-      <span>Address: Ebonyi State, Nigeria</span>
-      <span>Age: Teenager</span>
-      <span>Email: <a href="mailto: franklinchibuikeominyi@gmail.com">franklinchibuikeominyi@gmail.com</a></span>
-      <span>Phone: <a href="tel: 08104496353">08104496353</a></span>
-      <span>Language: English</span>
-     </div>
-    </div>
-    <div class="col-md-6" id="skills">
-     <div class="skills" >
-      <h3 style="color: blue; text-align: center; border-bottom: 2px solid black;">Skills</h3>
-      <div class="progress">
-       <div class="progress-bar bg-info" role="progressbar" style="width: 93%" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100">HTML: 935%</div>
+    <div class="col-md-4">
+     <div class="resume_left">
+      <div class="profile_img">
+       <img src="img/me.jpg" alt="my_picture">
       </div>
-      <div class="progress">
-       <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">CSS: 85%</div>
-      </div>
-      <div class="progress">
-       <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Javascript: 70%</div>
-      </div>
-      <div class="progress">
-       <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">React: 60%</div>
-      </div>   
-      <div class="progress">
-       <div class="progress-bar bg-info" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">Teamwork: 98%</div>
-      </div>     
-     </div>
-    </div>
-   </div>
- 
-   <div class="experience" id="experience">
-    <h3 style="color: blue; text-align: center; border-bottom: 2px solid white; font-weight: bold;">Experience</h3>
-    <div class="row row3">
-     <div class="col-md-4 col-sm-6">
-      <div>
-       <a href="https://zuri.team">
-        <img src="img/hng.png" alt="image">
-        Participated in HNGi8 internship <br>
-        <button>Link to HNG site</button>
-       </a>
-      </div>
-     </div>
-  
-     <div class="col-md-4 col-sm-6">
-      <div>
-       <a href="https://appmoviesearch.netlify.com">
-        <img src="img/movieApp.jpg" alt="image">
-        Built Movie Review App <br>
-        <button>Link to Site</button>
-       </a>
-      </div>
-     </div>
-  
-     <div class="col-md-4 col-sm-6">
-      <div>
-       <a href="https://appweatherapp.netlify.com">
-        <img src="img/weatherApp.jpeg" alt="image">
-        Built Weather Forecast App <br>
-        <button>Link to Site</button>
-       </a>
-      </div>
-     </div>
-    </div>
-   </div>
- 
-  </div>
+      <div class="resume_info resume_item">
+       <p class="bold" id="name"></p>
+       <p class="regular">Frontend Web Developer</p>
+       <ul>
+        <li>
+         <div class="icon">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+         </div>
+         <div class="data">
+          Umuakpu Ngbo, Ebonyi State
+         </div>
+        </li>
 
-  <div class="container-fluid" id="footer">
-   Copyright &copy; Alegu Franklin Ominyi 
+        <li>
+         <div class="icon">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+         </div>
+         <div class="data">
+          <a href="tel:+2348104496353">+2348104496353</a>
+         </div>
+        </li>
+
+        <li>
+         <div class="icon">
+          <i class="fa fa-link" aria-hidden="true"></i>
+         </div>
+         <div class="data">
+          <a href="https://frankofficial.netlify.com">Link to Portfolio</a>
+         </div>
+        </li>
+       </ul>
+      </div>
+
+      <div class="resume_item resume_skills">
+       <p class="bold">Skills</p>
+       <ul>
+        <li class="semi-bold">HTML</li>
+        <li class="semi-bold">CSS</li>
+        <li class="semi-bold">SaSS</li>
+        <li class="semi-bold">Boostrap</li>
+        <li class="semi-bold">Javascript</li>
+        <li class="semi-bold">React Js</li>
+       </ul>
+      </div>
+
+      <div class="resume_item resume_social">
+       <p class="bold">Social</p>
+       <ul>
+        <li>
+         <div class="icon">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+         </div>
+         <div class="data">
+          <p class="semi-bold">Facebook </p>
+          <p>Franklin Chibuike Ominyi</p> 
+         </div>
+        </li>
+
+        <li>
+         <div class="icon">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+         </div>
+         <div class="data">
+          <p class="semi-bold">Linkedin </p>
+          <p>Franklin Ominyi</p> 
+         </div>
+        </li>
+
+        <li>
+         <div class="icon">
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+         </div>
+         <div class="data">
+          <p class="semi-bold">Twitter </p>
+          <p>@franklin_ominyi</p> 
+         </div>
+        </li>
+       </ul>
+      </div>
+
+      <div class="resume_item resume_task_from">
+       <p class="bold">task from</p>
+       <a href="http://www.hng.com/"> <img src="./img/zurilogo.png" alt="hng_logo"></a>
+      </div>
+
+     </div>
+    </div>
+
+    <div class="col-md-8">
+     <div class="resume_right">
+      <div class="resume_item resume_about">
+       <div class="title">
+        <p class="bold">Profile</p>
+       </div>
+       <p>I am a person with keen interest in acquiring knowlegde and providing solutions to problems. Though am still new to the technical world, I am learning to be proficient in modern web development technologies including, but not limited to Javascript, React Js, CSS and HTML. I am keen on taking new opportunites and challenges in the IT sector.</p>
+      </div>
+
+      <div class="resume_item resume_work">
+       <p class="bold">Experience</p>
+       <ul>
+        <li>
+         <div class="date"> August 2020 - Present</div>
+         <div class="info">
+          <p class="semi-bold">Intern at HNGi8 (A Remote Internship)</p>
+          <p>I network and connect with interns that has different background and advance programming skills.<br>
+           I do assit in providing full technical solutions to new interns facing challenges.
+          </p>
+         </div>
+        </li>
+
+        <li>
+         <div class="date"> May 2021 - June 2021</div>
+         <div class="info">
+          <p class="semi-bold">Worked Alongside a Friend</p>
+          <p>I helped in turning my friends ideas and wireframes into a web web app.<br>
+           The app was built with clean code that made its loading speed fast. <br>
+           With the use of Frontend libraries like Boostrap the app was responsive across broswers, which enchances the user experience.
+          </p>
+         </div>
+        </li>
+       </ul>
+      </div>
+
+      <div class="resume_item resume_work">
+       <p class="bold">Experience</p>
+       <ul>
+        <li>
+         <div class="date"> 2015 - 2020</div>
+         <div class="info">
+          <p class="semi-bold">Community Secondary School Ngbo</p>
+          <p>SSCE</p>
+         </div>
+        </li>
+
+        <li>
+         <div class="date"> 2011 - 2015</div>
+         <div class="info">
+          <p class="semi-bold">Light the Word Nursery and Primary School Ngbo</p>
+          <p>First School Leaving Certificate</p>
+         </div>
+        </li>
+       </ul>
+      </div>
+
+      <div class="resume_item resume_hobby">
+       <div class="title">
+        <p class="bold">Hobbies</p>
+       </div>
+       <ul>
+        <li>Swimming </li>
+        <li>Researching</li>
+        <li>Reading</li>
+        <li>Watching Movie</li>
+       </ul>
+      </div>
+
+      <div class="resume_item resume_language">
+       <div class="title">
+        <p class="bold">Language</p>
+       </div>
+       <p class="semi-bold">English</p>
+      </div>
+     </div>
+ 
+    </div>
+   </div>
+  
   </div>
  </div>
-
+   
  
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
- <script src="js/script.js"></script> 
+ 
+ <script>
+  const printName=(updateName)=>{
+   const name = document.querySelector('#name');
+   name.innerHTML = updateName;
+  }
+
+  printName("Alegu Franklin Ominyi")
+ </script>
 </body>
 </html>
